@@ -1,0 +1,78 @@
+Invoke-WebRequest -Uri "http://localhost:8080/users" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "displayName": "Dorel",
+  "city": "Baltatesti",
+  "state": "Neamt",
+  "zipcode": 617025,
+  "peanutInt": 1,
+  "eggInt": 0,
+  "dairyInt": 0
+}'
+
+Invoke-RestMethod -Method Delete -Uri "http://localhost:8080/users/Dorelll"
+Invoke-RestMethod -Method Get -Uri "http://localhost:8080/users/Dorelll"
+
+Invoke-WebRequest -Uri "http://localhost:8080/restaurants" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "name": "Pescobar",
+  "city": "Timisoara",
+  "state": "Timisoara",
+  "zipCode": "617025",
+  "phoneNumber": "123-456-7890"
+}'
+
+Invoke-WebRequest -Uri "http://localhost:8080/restaurants" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "name": "Pescobar",
+  "peanutAllergy": 5,
+  "eggAllergy": 3,
+  "dairyAllergy": 4,
+  "city": "Baltatesti",
+  "state": "Neamt",
+  "zipCode": "6312132",
+  "phoneNumber": "123-456-7890"
+}'
+
+Invoke-WebRequest -Uri "http://localhost:8080/restaurants" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "name": "Ka",
+  "peanutAllergy": 0,
+  "eggAllergy": 3,
+  "dairyAllergy": 4,
+  "city": "Baltatesti",
+  "state": "Neamt",
+  "zipCode": "612222",
+  "phoneNumber": "123-456-7890"
+}'
+
+Invoke-WebRequest -Uri "http://localhost:8080/restaurants" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "name": "Ka",
+  "peanutAllergy": 0,
+  "eggAllergy": 3,
+  "dairyAllergy": 4,
+  "city": "Baltatesti",
+  "state": "Neamt",
+  "zipCode": "612222",
+  "phoneNumber": "123-456-7890"
+}'
+
+
+Invoke-WebRequest -Uri "http://localhost:8080/revie" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "displayName": "Dorel",
+  "peanutAllergy": 0,
+  "eggAllergy": 3,
+  "dairyAllergy": 4,
+  "city": "Baltatesti",
+  "state": "Neamt",
+  "zipCode": "612222",
+  "phoneNumber": "123-456-7890"
+}'
+
+Invoke-WebRequest -Uri "http://localhost:8080/reviews/" -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{
+  "restaurantId": 303,
+  "displayName": "Dorel",
+  "peanutScore": 4,
+  "eggScore": 5,
+  "dairyScore": 3,
+  "commentary": "Mi a placut mult aici.E frumos.OK"
+}'
+
+Invoke-WebRequest -Uri "http://localhost:8080/admin/review/1" -Method PUT -Headers @{"Content-Type" = "application/json"} -Body '{
+  "accept": true
+}'

@@ -1,0 +1,78 @@
+2023-09-21 11:48:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:48:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id)) [42001-214]
+2023-09-21 11:48:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:48:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:48:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id)) [42001-214]
+2023-09-21 11:48:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:49:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:49:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id)) [42001-214]
+2023-09-21 11:49:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:51:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:51:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id)) [42001-214]
+2023-09-21 11:51:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:53:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 11:53:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table user (dairy_int boolean, egg_int boolean, peanut_int boolean, zipcode integer, id bigint not null, city varchar(255), display_name varchar(255), state varchar(255), primary key (id)) [42001-214]
+2023-09-21 11:56:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+drop table if exists user cascade  [42001-214]
+2023-09-21 13:33:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERNAME" not found (this database is empty); SQL statement:
+select u1_0.id,u1_0.city,u1_0.dairy_int,u1_0.display_name,u1_0.egg_int,u1_0.peanut_int,u1_0.state,u1_0.zipcode from username u1_0 where u1_0.display_name=? [42104-214]
+2023-09-21 14:20:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]USERNAME"; SQL statement:
+SHOW USERNAME [42000-214]
+2023-09-21 14:20:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]* USERNAME"; SQL statement:
+SHOW * USERNAME [42000-214]
+2023-09-21 14:20:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]USERNAME FROM TABLES"; SQL statement:
+SHOW USERNAME FROM TABLES [42000-214]
+2023-09-21 14:20:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]Username FROM TABLES"; SQL statement:
+SHOW Username FROM TABLES [42000-214]
+2023-09-21 14:20:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]Username"; SQL statement:
+SHOW Username [42000-214]
+2023-09-21 17:32:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RESTAURANTS" not found; SQL statement:
+SELECT * FROM PUBLIC.RESTAURANTS [42102-214]
+2023-09-21 20:57:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]* FROM PUBLIC.REVIEW"; SQL statement:
+SHOW * FROM PUBLIC.REVIEW [42000-214]
+2023-09-21 20:57:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SHOW [*]* FROM PUBLIC.REVIEWS"; SQL statement:
+SHOW * FROM PUBLIC.REVIEWS [42000-214]
+2023-09-21 20:57:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEWS" not found; SQL statement:
+SELECT * FROM PUBLIC.REVIEWS [42102-214]
+2023-09-21 22:40:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "REVIEWT" not found; SQL statement:
+SELECT * FROM PUBLIC.REVIEWT [42102-214]
